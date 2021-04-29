@@ -1,3 +1,8 @@
+import csv
+student_fields = ['roll', 'name', 'age', 'email', 'phone']
+student_database = 'students.csv'
+
+
 def view_students():
     global student_fields
     global student_database

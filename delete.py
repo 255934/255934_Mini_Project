@@ -1,7 +1,9 @@
-def delete_student():
-    global student_fields
-    global student_database
+import csv
+student_fields = ['roll', 'name', 'age', 'email', 'phone']
+student_database = 'students.csv'
 
+
+def delete_student():
     print("--- Delete Student ---")
     roll = input("Enter roll no. to delete: ")
     student_found = False
